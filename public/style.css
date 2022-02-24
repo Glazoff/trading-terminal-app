@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.block-app {
+    position: relative;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 10px;
+
+    border: 2px solid #747474;
+    border-radius: 5px;
+}
+
+.nav-list-item {
+    display: inline;
+    margin-right: 5px;
+}
+
+.nav-list-buttom-active {
+    background-color: #747474;
+    border-radius: 3px;
+}
+
+
+.block-targeding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.time {
+    color: rgb(92, 92, 92);
+    font-size: 50px;
+}
+
+.currency-option {
+    margin-top: 20px;
+}
+
+.block-buy-sell {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.block-buy,
+.block-sell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 25px;
+    align-items: center;
+}
+
+.block-buy {
+    color: rgb(52, 199, 52);
+}
+
+.block-sell {
+    color: rgb(214, 71, 71);
+}
+
+.tbale-archive {
+    margin-top: 10px;
+}
+
+
+.module-deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 125px; top: 0px;
+    border: 2px solid #747474;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 250px;
+    height: 200px;
+}
+
+.module-title {
+    padding-top: 15px;
+}
+
+.module-deal > div {
+    padding-top: 15px;
+}
+
+.not-transaction {
+    display: block;
+    width: 190px;
+    margin: 20px auto;
+}
+
+.tbale-archive {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+.tbale-archive th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.tbale-archive td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+.tbale-archive tr td:first-child, .tbale-archive tr th:first-child {
+	border-left: none;
+}
+.tbale-archive tr td:last-child, .tbale-archive tr th:last-child {
+	border-right: none;
+}

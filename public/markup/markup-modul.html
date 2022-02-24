@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="block-app">
+        <div class="block-nav">
+            <ul class="nav-list">
+                <li class="nav-list-item nav-list-item-active">Trading</li>
+                <li class="nav-list-item">Archive</li>
+            </ul>
+        </div>
+
+        <div class="block-targeding">
+            <time class="time">14:45:59</time>
+            <select class="currency-option" name="currency-option">
+                <option value="USD/CAD">USD/CAD TOM</option>
+                <option value="CAD/USD">CAD/USD TOM</option>
+            </select>
+            
+            <div class="block-buy-sell">
+                <div class="block-buy">
+                    <button class="button-buy/">Buy</button>
+                    <span class="price-buy">1.5766</span>
+                </div>
+                <div class="block-sell">
+                    <button class="button-sell">Sell</button>
+                    <span class="price-sell">1.5745</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-archive display-none">
+            <table class="tbale-archive">
+                <tr class="table-header">
+                    <th class="table-header-item">Side</th>
+                    <th class="table-header-item">Price</th>
+                    <th class="table-header-item">Instrument</th>
+                    <th class="table-header-item">Volume</th>
+                    <th class="table-header-item">TimeStamp</th>
+                </tr>
+                <tr class="table-body">
+                    <td class="table-body-item">Sell</td>
+                    <td class="table-body-item">1.5745</td>
+                    <td class="table-body-item">USD/CAD TOM</td>
+                    <td class="table-body-item">20000000</td>
+                    <td class="table-body-item">2022.02.01 13:55:18.578</td>
+                </tr>
+            </table>
+        </div>
+        <div class="module-deal">
+            <h3 class="module-title">Make order</h3>
+    
+            <div class="block-details-deal">
+                <span class="deal-type">Sell</span>
+                <span class="deal-price">1.5746</span>
+                <span class="deal-currency">USD/CAD</span>
+            </div>
+
+            <div class="block-input-deal">
+                <label for="volume-currency">Volume</label>
+                <input type="number" id="volume-currency">
+            </div>
+
+            <div class="block-cancel-ok">
+                <button>Cancel</button>
+                <button>Ok</button>
+            </div>   
+        </div>
+    </div>
+    
+</body>
+</html>
